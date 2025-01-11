@@ -92,6 +92,7 @@ body {
     padding: 8px 32px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -207,6 +208,7 @@ body {
     padding: 8px 50px;
     border: 2px solid white;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 
