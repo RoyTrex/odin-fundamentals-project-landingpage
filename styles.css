@@ -7,19 +7,22 @@ body {
     flex-direction: column;
 }
 
+
 .top {
-    padding: 12px;
-    padding-bottom: 60px;
-    background-color: #1F2937;
-    color: white;
     display: flex;
     align-items: center;
     /* flex: 1; */
     flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-bottom: 70px;
+    background-color: #1F2937;
+    color: white;
 }
 
 .top .header {
     display: flex;
+    flex: 1;
     justify-content: space-between;
     align-items: center;
     width: 1000px;
@@ -48,7 +51,8 @@ body {
     align-items: center;
     gap: 80px;
     width: 1000px;
-    margin-top: 50px;
+    padding-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .top .hero-left {
@@ -83,16 +87,69 @@ body {
     border: none;
 }
 
+
 .showcase {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
-    padding: 32px;
+    gap: 24px;
+    padding: 72px 32px;
 }
 
 .showcase .header {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+}
+
+.showcase .container {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+    /* flex: auto; */
+}
+
+.showcase .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    gap: 8px;
+}
+
+.showcase .border {
+    padding: 50%;
+    border-radius: 20px;
+    border: 4px solid #3882F6;
+}
+
+.showcase .text {
+    color: #4b5563;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote .quote-container {
+    max-width: 800px;
+}
+
+.quote .quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote .quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: bold;
 }
