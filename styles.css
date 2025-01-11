@@ -47,7 +47,7 @@ body {
 
 .top .header a {
     text-decoration: 0;
-    color: #E5E7EB;;
+    color: #E5E7EB;
 }
 
 .top .hero {
@@ -95,12 +95,13 @@ body {
 }
 
 
+
 .showcase {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 24px;
-    padding: 72px 32px;
+    gap: 32px;
+    padding: 100px 32px;
 }
 
 .showcase .header {
@@ -135,6 +136,8 @@ body {
     color: #4b5563;
 }
 
+
+
 .quote {
     background-color: #E5E7EB;
     padding: 200px;
@@ -159,4 +162,45 @@ body {
     justify-content: flex-end;
     font-size: 20px;
     font-weight: bold;
+}
+
+
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.call-to-action .call-container {
+    display: flex;
+    gap: 200px;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    background-color: #3882F6;
+    padding: 60px 125px;
+    border-radius: 10px;
+}
+
+.call-to-action .call-text {
+    color: #ffffff;
+}
+
+.call-to-action .call-maintext {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-to-action .call-subtext {
+    font-size: 18px;
+}
+
+.call-to-action button {
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 50px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
