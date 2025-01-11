@@ -14,18 +14,23 @@ body {
     /* flex: 1; */
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 50px;
-    padding-bottom: 70px;
+    padding: 50px 50px 70px 50px;
     background-color: #1F2937;
     color: white;
 }
 
+.top .top-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
 .top .header {
     display: flex;
-    flex: 1;
+    /* flex: 1; */
     justify-content: space-between;
     align-items: center;
-    width: 1000px;
+    flex-wrap: wrap;
 }
 
 .top .header .header-logo {
@@ -49,8 +54,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     gap: 80px;
-    width: 1000px;
     padding-top: 50px;
     /* margin-top: 50px; */
 }
@@ -58,13 +63,15 @@ body {
 .top .hero-left {
     display: flex;
     flex-direction: column;
+    flex: 1;
     gap: 15px;
+
 }
 
-/* .top .hero-right {
+.top .hero-right {
     display: flex;
     align-items: center;
-} */
+}
 
 .top .hero-maintext {
     color: #F9FAF8;
