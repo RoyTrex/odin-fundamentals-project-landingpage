@@ -115,6 +115,7 @@ body {
     gap: 50px;
     text-align: center;
     flex-wrap: wrap;
+    justify-content: center;
     /* flex: auto; */
 }
 
@@ -174,9 +175,11 @@ body {
 
 .call-to-action .call-container {
     display: flex;
-    gap: 200px;
-    /* justify-content: space-between; */
-    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3882F6;
     padding: 60px 125px;
     border-radius: 10px;
@@ -184,6 +187,7 @@ body {
 
 .call-to-action .call-text {
     color: #ffffff;
+    flex: 1;
 }
 
 .call-to-action .call-maintext {
@@ -200,7 +204,7 @@ body {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: bold;
-    padding: 5px 50px;
+    padding: 8px 50px;
     border: 2px solid white;
     border-radius: 10px;
 }
